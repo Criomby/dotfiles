@@ -5,12 +5,20 @@ case $- in
 esac
 
 # START ZSH SETUP
-setopt histignorealldups sharehistory auto_cd
+setopt INC_APPEND_HISTORY # append history, don't overwrite
+setopt SHARE_HISTORY
+setopt HIST_EXPIRE_DUPS_FIRST
+setopt HIST_IGNORE_DUPS
+setopt HIST_IGNORE_ALL_DUPS
+setopt HIST_IGNORE_SPACE
+setopt HIST_SAVE_NO_DUPS
+setopt HIST_REDUCE_BLANKS
+setopt autocd
 
 # Keep 1000 lines of history within the shell and save it to ~/.zsh_history:
 HISTSIZE=1000
 SAVEHIST=1000
-HISTFILE=~/.zsh_history
+HISTFILE="$HOME/.zsh_history"
 
 # Use modern completion system
 autoload -Uz compinit
@@ -34,14 +42,16 @@ zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 
 # autosuggestions
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+#ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=cyan"
 
 # load aliases
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
-fi
+[[ -f ~/.bash_aliases ]] && . ~/.aliases
 
-# show random pokemon
-pokeget 0
+# PATH
+PATH=$HOME/bin:/usr/local/bin:/sbin:/usr/sbin:$HOME/.local/bin:$PATH
+
+# show random pokemon whenever a new termminal session is started
+pokeget random
 
 # prompt
 eval "$(starship init zsh)"
@@ -54,7 +64,7 @@ export PYENV_ROOT="$HOME/.pyenv"
 eval "$(pyenv init -)"
 
 # rust
-. "$HOME/.cargo/env"
+[[ -d ~/.cargo/ ]] && . "$HOME/.cargo/env"
 
 # nvm
 export NVM_DIR="$HOME/.nvm"

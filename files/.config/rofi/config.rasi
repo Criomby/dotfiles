@@ -1,0 +1,11 @@
+@theme "solarized"
+
+element {
+    orientation: horizontal;
+    children: [element-text, element-icon];
+    spacing: 5px;
+}
+
+element-icon {
+    size: 1em;
+}

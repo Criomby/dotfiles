@@ -1,7 +1,10 @@
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ./../.."
+
 alias c=clear
+alias e=exit
+
 alias la="ls -a"
 alias ll="ls -l"
 alias lla="ls -la"
@@ -9,3 +12,4 @@ alias lla="ls -la"
 alias aptgrade="sudo apt update && sudo apt upgrade"
 
 alias py=python3
+alias pyv="python3 --version"
