@@ -9,7 +9,7 @@ Here is a list of the tools I use on a daily basis: [LINK](https://pbrplus.notio
 
 ## included configs
 
-- linux
+- **Linux**
     - *.zshrc*
     - *.aliases*
     - alacritty
@@ -18,7 +18,7 @@ Here is a list of the tools I use on a daily basis: [LINK](https://pbrplus.notio
     - polybar
     - rofi
     - starship
-- mac
+- **macOS**
     - kitty
     - macchina
     - starship
