@@ -3,22 +3,6 @@
 This is a collection of the dotfiles I use.<br>
 Feel free to take what you need and ask questions if you have any.
 
-The resources (if applicable) are linked / mentioned in the dirs directly (either in a README or text file).
+The resources are linked / mentioned in the files directly i.a.
 
-Here is a list of the tools I use on a daily basis: [LINK](https://pbrplus.notion.site/Linux-Page-de6cfe3bd0bc4af59fde3e9a7cffceec?pvs=4)<br>(The tools under *Tooling* is what I also use on macOS)
-
-## included configs
-
-- **Linux**
-    - *.zshrc*
-    - *.aliases*
-    - alacritty
-    - i3
-    - macchina
-    - polybar
-    - rofi
-    - starship
-- **macOS**
-    - kitty
-    - macchina
-    - starship
+**Check out the README in the OS dir for an overview of the configs which I use on the specific system.**
