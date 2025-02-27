@@ -1,15 +1,20 @@
+# navigation
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ./../.."
-
 alias c=clear
 alias e=exit
-
 alias la="ls -a"
 alias ll="ls -l"
 alias lla="ls -la"
 
-alias aptgrade="sudo apt update && sudo apt upgrade"
-
+# programs
+alias python=python3
 alias py=python3
-alias pyv="python3 --version"
+alias nv=nvim
+alias img=img2sixel
+alias ff=firefox
+
+# system
+alias aptgrade="sudo apt update && sudo apt upgrade"
+alias gr_show="busctl --user introspect rs.wl-gammarelay / rs.wl.gammarelay"

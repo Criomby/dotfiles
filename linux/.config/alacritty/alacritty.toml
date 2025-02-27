@@ -4,7 +4,8 @@
 
 # uses a theme from https://github.com/alacritty/alacritty-theme
 import = [
-    "~/.config/alacritty/themes/themes/afterglow.toml"
+    #"~/.config/alacritty/themes/themes/afterglow.toml"
+    "~/.config/alacritty/themes/themes/gruvbox_dark.toml"
 ]
 
 [window]
@@ -13,14 +14,13 @@ padding.x = 10
 padding.y = 10
 decorations = "Full"
 decorations_theme_variant = "Dark"
-startup_mode = "Fullscreen"
 
 [font]
 normal.family = "JetBrainsMono Nerd Font"
 bold.family = "JetBrainsMono Nerd Font"
-italic.family = "JetBrainsMono Nerd Font"
+italic.family = "JetBrainsMono Nerd Font, Regular Italic"
 bold_italic.family = "JetBrainsMono Nerd Font"
-size = 12.0
+size = 9.0
 
 [cursor]
 style.shape = "Beam"

@@ -1,0 +1,4 @@
+ignore-empty-password
+daemonize
+image=/usr/share/backgrounds/swaylock/lockscreen2-noicon.png
+scaling=fill

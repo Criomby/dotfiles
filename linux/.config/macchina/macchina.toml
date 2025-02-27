@@ -5,7 +5,7 @@ interface = "wlan0"
 long_uptime = true
 
 # Lengthen shell output
-long_shell = false
+long_shell = true
 
 # Lengthen kernel output
 long_kernel = false
@@ -49,10 +49,11 @@ theme = "criomby"
 show = [
     "Machine",
     "Distribution",
-    "Kernel",
+	"OperatingSystem",
     "DesktopEnvironment",
-#    "WindowManager",
+	"WindowManager",
     "Terminal",
     "Shell",
-#    "Processor",
+	"Processor",
+	"Memory"
 ]

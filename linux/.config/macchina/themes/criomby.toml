@@ -1,8 +1,8 @@
 # Lithium
 
 spacing         = 0
-padding         = 2
-hide_ascii      = false
+padding         = 0
+hide_ascii      = true
 separator       = " - "
 key_color       = "Yellow"
 separator_color = "Yellow"
@@ -22,7 +22,7 @@ hide_delimiters = true
 [box]
 title           = ""
 border          = "rounded"
-visible         = true
+visible         = false
 
 [box.inner_margin]
 x               = 1
@@ -30,7 +30,7 @@ y               = 1
 
 [custom_ascii]
 #color           = "Red"
-path		= "~/.config/macchina/themes/logos/tm-fire.txt"
+path		= "~/.config/macchina/themes/logos/debian-logo-xs.txt"
 
 [randomize]
 key_color       = false
