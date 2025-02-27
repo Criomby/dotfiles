@@ -1,8 +1,25 @@
-# my dotfiles
+Running vanilla Debian ofc
 
-This is a collection of the dotfiles I use.<br>
-Feel free to take what you need and ask questions if you have any.
+# setup
 
-The resources are linked / mentioned in the files directly i.a.
+- sway (window manager)
+- swaylock (lock screen)
+- swayidle (lock screen timeout & display off when locked)
+- waybar (bar)
+- foot (terminal, alacritty for ssh since foot gave me some weird bugs there)
+- gdm (login manager)
+- kickoff (application menu/launcher)
 
-**Check out the README in the OS dir for an overview of the configs which I use on the specific system.**
+# utility
+
+- wl-gammarelay-rs (display brightness + temperature)
+- nmtui (network manager terminal ui)
+- bluetuith (bluetooth manager terminal ui)
+- grim (screenshots)
+
+- bat (`cat` replacement)
+
+# TODO
+
+- notifications (dunst or SwayNotificationCenter)
+- external display manager (nwg-displays) but works pretty well as-is
