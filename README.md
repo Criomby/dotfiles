@@ -1,4 +1,6 @@
-Running vanilla Debian ofc
+This repo contains my config files for the various tools I use.
+
+Take what you need and if you have any questions open a discussion.
 
 # setup
 
@@ -6,7 +8,7 @@ Running vanilla Debian ofc
 - swaylock (lock screen)
 - swayidle (lock screen timeout & display off when locked)
 - waybar (bar)
-- foot (terminal, alacritty for ssh since foot gave me some weird bugs there)
+- foot (terminal, alacritty for ssh since foot gave me some weird behavior there)
 - gdm (login manager)
 - kickoff (application menu/launcher)
 
@@ -16,7 +18,6 @@ Running vanilla Debian ofc
 - nmtui (network manager terminal ui)
 - bluetuith (bluetooth manager terminal ui)
 - grim (screenshots)
-
 - bat (`cat` replacement)
 
 # TODO
